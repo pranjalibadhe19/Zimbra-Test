@@ -1,4 +1,6 @@
 # Zimbra-Test
+### Running project link
+Click here [ZimbraTest](http://13.234.33.140/)
 
 ## Steps to run project
 1. Open new termial/console and install `npm install -g json-server`
