@@ -1,0 +1,35 @@
+<div class="container text-center">
+  <h1>Product Listing Page</h1>
+  <div>
+    <form class="form-inline">
+      <label for="sel1">Select list:&nbsp;</label>
+      <select
+        class="form-control"
+        id="sel1"
+        (change)="loadProducts()"
+        [(ngModel)]="categoryId"
+        [ngModelOptions]="{ standalone: true }"
+      >
+        <option *ngFor="let category of categories" [value]="category.id">{{
+          category.name
+        }}</option>
+      </select>
+    </form>
+  </div>
+  <br />
+  <div class="row">
+    <div
+      class="col-xs-18 col-sm-6 col-md-3 product"
+      *ngFor="let product of products"
+    >
+      <a [routerLink]="['/product-details', product.id]">
+        <div class="thumbnail">
+          <img src="{{ product.imageUrl }}" alt="" />
+          <div class="caption">
+            <h4>{{ product.name }}</h4>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

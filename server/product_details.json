@@ -1,0 +1,60 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Laptops"
+    },
+    {
+      "id": 2,
+      "name": "Mobiles"
+    },
+    {
+      "id": 3,
+      "name": "Speakers"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Lenovo",
+      "imageUrl": "https://picsum.photos/seed/picsum/500/300",
+      "categoryId": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere,soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit"
+    },
+    {
+      "id": 2,
+      "name": "Mac",
+      "imageUrl": "https://picsum.photos/seed/picsum/500/300",
+      "categoryId": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere,soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit"
+    },
+    {
+      "id": 3,
+      "name": "Dell",
+      "imageUrl": "https://picsum.photos/seed/picsum/500/300",
+      "categoryId": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere,soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit"
+    },
+    {
+      "id": 4,
+      "name": "Samsung",
+      "imageUrl": "https://picsum.photos/seed/picsum/500/300",
+      "categoryId": 2,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere,soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit"
+    },
+    {
+      "id": 5,
+      "name": "Nokia",
+      "imageUrl": "https://picsum.photos/seed/picsum/500/300",
+      "categoryId": 2,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere,soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit"
+    },
+    {
+      "id": 6,
+      "name": "Boat",
+      "imageUrl": "https://picsum.photos/seed/picsum/500/300",
+      "categoryId": 3,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere,soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<div class="container">
+  <h1 class="text-center">Product Details Page</h1>
+  <br />
+  <div class="row">
+    <div class="col-xs-18 col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <img src="{{ product?.imageUrl }}" alt="" />
+      </div>
+    </div>
+    <div class="col-xs-18 col-sm-6 col-md-8">
+      <form class="form-inline">
+        <div><label>Category:&nbsp;</label> {{category?.name}}</div>
+        <div><label>Product Name:&nbsp;</label> {{ product?.name }}</div>
+        <div>
+          <label>Description:&nbsp;</label>
+          <p>{{ product?.description }}</p>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
